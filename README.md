@@ -46,3 +46,5 @@ Open terminal in the project folder and run:
 
 ```bash
 git status
+
+
