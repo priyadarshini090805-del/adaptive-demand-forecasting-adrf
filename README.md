@@ -1,23 +1,23 @@
 # Adaptive Demand–Aware Reinforcement Forecasting (ADRF)
 
 ## Project Overview
-This project implements an IIT-level demand forecasting and inventory decision system using a novel algorithm called **Adaptive Demand–Aware Reinforcement Forecasting (ADRF)**.
+This project implements an advanced demand forecasting and inventory decision system using a novel algorithm called **Adaptive Demand–Aware Reinforcement Forecasting (ADRF)**.
 
-Unlike traditional forecasting models, ADRF integrates demand prediction with business outcome feedback to dynamically correct future forecasts.
+Unlike traditional forecasting models, ADRF integrates demand prediction with business outcome feedback to dynamically adjust future forecasts based on inventory performance.
 
 ---
 
 ## Key Features
 - LSTM-based demand forecasting
-- Reinforcement-style adaptive correction
+- Adaptive correction using reinforcement-style feedback
 - Inventory simulation with stockout and overstock penalties
-- Ablation study and baseline comparison
+- Baseline comparison and ablation study
 - Business-aware performance evaluation
 
 ---
 
-## Algorithm: ADRF (Proposed)
-ADRF introduces a correction factor that adapts forecasts based on inventory outcomes such as stockouts and excess stock. This creates a closed-loop learning system that minimizes cumulative business loss.
+## Algorithm Description
+ADRF introduces a correction factor that adapts demand forecasts based on observed inventory outcomes such as stockouts or excess stock. This creates a closed-loop learning system that improves decision quality over time.
 
 ---
 
@@ -34,3 +34,15 @@ ADRF introduces a correction factor that adapts forecasts based on inventory out
 ```bash
 pip install -r requirements.txt
 python main.py
+
+
+Save the file.
+
+---
+
+## STEP 3 — Commit the README change
+
+Open terminal in the project folder and run:
+
+```bash
+git status
