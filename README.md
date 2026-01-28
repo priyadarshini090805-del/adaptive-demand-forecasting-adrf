@@ -30,20 +30,6 @@ ADRF introduces a correction factor that adapts demand forecasts based on observ
 
 ---
 
-## How to Run
-```bash
-pip install -r requirements.txt
-python main.py
-
-
-Save the file.
-
----
-
-## STEP 3 — Commit the README change
-
-Open terminal in the project folder and run:
-
 ```bash
 git status
 
